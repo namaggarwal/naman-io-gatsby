@@ -1,4 +1,4 @@
 [build]
   base = "namanio"
   command = "yarn build"
-  publish = "namanio/public"
+  publish = "public"
