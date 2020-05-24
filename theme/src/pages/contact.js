@@ -41,7 +41,7 @@ const ContactPage = () => (
     <SEO title="Contact" keywords={[`naman`, `aggarwal`, `javascript`, `golang`, `aws`, `android`, `google`, `appscript`]} />
     <Content>
       <p>Please fill in the form below and I will contact you as soon as possible.</p>
-      <Form method="post" action="#" netlify>
+      <Form method="post" action="/about" name="contact" netlify>
         <InputGroup>
           <label>Name</label>
           <input type="text" name="name" id="name" required />
