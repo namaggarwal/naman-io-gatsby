@@ -5,7 +5,7 @@ import React from "react"
 
 const Content = styled.div`
   max-width: 860px;
-  padding: 1rem 1.0875rem;
+  padding: 0.5rem 1.0875rem;
   font-size: 1.2rem;
 `
 
@@ -72,14 +72,23 @@ const SiteHeader = styled.header`
   justify-content: center;
 `
 
+const LinkGroup = styled.p`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  a {
+    margin-top: 0.5rem;
+  }
+`
+
 const Header = ({ siteTitle }) => (
   <SiteHeader>
     <Content>
-      <p>
+      <LinkGroup>
         <HomeLink to="/">{siteTitle}</HomeLink>
         <NavLink to="/blog">Blog</NavLink>
         <GitHubLink href="https://github.com/namaggarwal">GitHub</GitHubLink>
-      </p>
+      </LinkGroup>
     </Content>
   </SiteHeader>
 )
