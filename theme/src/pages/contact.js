@@ -42,6 +42,7 @@ const ContactPage = () => (
     <Content>
       <p>Please fill in the form below and I will contact you as soon as possible.</p>
       <Form method="post" action="/about" name="contact" data-netlify="true" >
+        <input type="hidden" name="form-name" value="contact" />
         <InputGroup>
           <label>Name</label>
           <input type="text" name="name" id="name" required />
