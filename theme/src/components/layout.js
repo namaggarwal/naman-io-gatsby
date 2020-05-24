@@ -13,11 +13,18 @@ import styled from "@emotion/styled"
 import Header from "./header"
 import "./layout.css"
 
+const OuterContainer = styled.div`
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+`
+
 const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;
   padding: 0 1.0875rem 1rem;
   padding-top: 0;
+  flex-grow: 1;
 `
 
 const GatsbyLink = styled.a`
@@ -25,8 +32,8 @@ const GatsbyLink = styled.a`
 `
 
 const Footer = styled.footer`
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  margin-bottom: 1rem;
 `
 
 const Layout = ({ children }) => (
@@ -41,19 +48,19 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <OuterContainer>
         <Header siteTitle={data.site.siteMetadata.title} />
         <Content>
           <main>{children}</main>
-          <Footer>
+        </Content>
+        <Footer>
             © {new Date().getFullYear()}, Built with
             {` `}
             <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
             &nbsp;|&nbsp;Theme By{` `}
             <GatsbyLink href="https://github.com/niklasmtj/gatsby-theme-julia">@niklasmtj</GatsbyLink>
-          </Footer>
-        </Content>
-      </>
+        </Footer>
+      </OuterContainer>
     )}
   />
 )
