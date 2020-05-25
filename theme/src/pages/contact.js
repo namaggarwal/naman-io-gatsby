@@ -25,13 +25,13 @@ const InputGroup = styled.div`
 
 const Submit = styled.div`
   text-align: center;
-  font-weight: bold;
   input {
     margin-top: 1rem;
     border: none;
     color: black;
     cursor: pointer;
     background: none;
+    border: 1px solid #aaa;
   }
 `
 
@@ -53,7 +53,7 @@ const ContactPage = () => (
         </InputGroup>
         <InputGroup>
           <label>Message</label>
-          <textarea rows="5" />
+          <textarea name="message" id="message" rows="5" />
         </InputGroup>
         <Submit>
           <input type="submit" value="Submit" />
