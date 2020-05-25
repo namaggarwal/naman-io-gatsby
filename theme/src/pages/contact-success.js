@@ -6,7 +6,8 @@ import styled from "@emotion/styled"
 
 
 const Content = styled.div`
-  margin-top: 2rem;
+  margin-top: 4rem;
+  text-align: center;
 `
 
 const ExternalLink = styled.a`
@@ -35,14 +36,15 @@ const ExternalLink = styled.a`
   }
 `
 
-const AboutPage = () => (
+const ContactSuccessPage = () => (
   <Layout>
-    <SEO title="About" keywords={[`naman`, `aggarwal`, `javascript`, `golang`, `aws`, `android`, `google`, `appscript`]} />
+    <SEO title="Contact" keywords={[`naman`, `aggarwal`, `javascript`, `golang`, `aws`, `android`, `google`, `appscript`]} />
     <Content>
-      <p>I am a Software Engineer at Facebook in London. I have a strong interest in architecting and building highly scalable distributed applications. I also work on a lot of freelance projects including but not restricted to automating GSuite using Google App Script.</p>
-      <p>Before Facebook, I have held technical leadership positions at Grab, Mastercard and Visa in Singapore. You can view my <ExternalLink href="https://www.linkedin.com/in/namanaggarwal/">LinkedIn</ExternalLink> for more information.</p>
+      <p>Thank you for contacting me. I will try to reach out to you as soon as possible. You can view my
+        <ExternalLink href="https://www.linkedin.com/in/namanaggarwal/">LinkedIn</ExternalLink> for any other information.
+      </p>
     </Content>
   </Layout>
 )
 
-export default AboutPage
+export default ContactSuccessPage
