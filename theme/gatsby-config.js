@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require("path")
 
 module.exports = {
   siteMetadata: {
@@ -29,13 +29,22 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-reading-time`, {
-          resolve: `gatsby-remark-prismjs`,
-          options: {
-            aliases:{sh: "bash", js:"javascript"},
-            showLineNumbers: true,
-          }
-        }],
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+            },
+          },
+          `gatsby-remark-reading-time`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              aliases: { sh: "bash", js: "javascript" },
+              showLineNumbers: true,
+            },
+          },
+        ],
       },
     },
     {
