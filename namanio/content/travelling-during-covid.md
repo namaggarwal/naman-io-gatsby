@@ -7,11 +7,15 @@ path: "/blog/travelling-during-covid"
 
 After an amazing 6.5 years, I left Singapore for good last week. It should just have been an emotional trip back home, but thanks to 2020, it was more worrying. COVID has made travelling extremely difficult and I had the first-hand experience of it. Here is an account of how it was like -
 
+![changi](../images/changi.png)
+
 ## Buying a ticket
 Rising cases in India and Singapore meant there were no flights back home. My visa to Singapore was expiring and I already got it renewed two times before. Then, I got an email from the Indian embassy, "Please visit the airline's office at 2 pm tomorrow to get a seat on repatriation flight". Knowing how the Indian system work, I reached around 12.30 pm to get a ticket. There were few people in the office and I got a ticket within minutes. They had a list of names and were only giving tickets to the people on the list.  I think had I reached the office on time (2 pm) I might not have got the ticket since the flight was full.
 
 ## Check-in
-After saying goodbyes I reached the airport with my friends 4 hours before the flight (as mentioned in my ticket). Instead of allowing me to queue at the check-in counter, I was handed over some declaration forms and a slip that mentioned my check-in time. My check-in time was still an hour away, so I made a few calls and clicked some pictures to pass the time. Then came my turn and it took less than 5 minutes to check-in and I was sent to another queue. Here Indian embassy officials took the declaration form and allowed us to move to immigration.
+After saying goodbyes I reached the airport with my friends 4 hours before the flight (as mentioned in my ticket). Instead of allowing me to queue at the check-in counter, I was handed over some declaration forms and a slip that mentioned my check-in time.
+![checkin](../images/checkin.png)
+My check-in time was still an hour away, so I made a few calls and clicked some pictures to pass the time. Then came my turn and it took less than 5 minutes to check-in and I was sent to another queue. Here Indian embassy officials took the declaration form and allowed us to move to immigration.
 
 ## Immigration
 Immigration at Singapore was pretty standard, I went to the Immigration official handed over my passport. She looked at it, stamped it and off I go.
@@ -23,7 +27,9 @@ Singapore airport is the best airport in the world. The one thing I missed durin
 Like any other trip, people formed a long queue at security.  Security followed the standard procedure, take out your laptops, jackets etc. It went pretty smooth.
 
 ## Holding Area
-This is where you start to get the feeling that it's not going to be a normal flight. You can see a lot of people wearing gloves, suits etc (mask was compulsory). Some of us were handed out additional suits and everyone was given a mask, face shield and some tissues. Then came the announcement and we started boarding.
+This is where you start to get the feeling that it's not going to be a normal flight. You can see a lot of people wearing gloves, suits etc (mask was compulsory). Some of us were handed out additional suits and everyone was given a mask, face shield and some tissues.
+![mask](../images/mask.jpg)
+Then came the announcement and we started boarding.
 
 ## Flight
 Flight was full. You were required to wear your masks and face shield at all times. Food was packed and kept on every seat, though few ate it. It was a night flight, but sleeping with a mask and face shield was next to impossible. Flight entertainment was turned off as well.
