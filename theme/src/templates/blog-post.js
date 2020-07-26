@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import HackerNews from "../components/hncomments"
 
 const Content = styled.div`
   margin: 0 auto;
@@ -65,6 +66,9 @@ export default ({ data }) => {
         </HeaderDate>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Content>
+      {post.frontmatter.hackernews && (
+        <HackerNews id={post.frontmatter.hackernews} />
+      )}
     </Layout>
   )
 }
@@ -78,6 +82,7 @@ export const pageQuery = graphql`
         date(formatString: "DD MMMM, YYYY")
         path
         title
+        hackernews
       }
       fields {
         readingTime {

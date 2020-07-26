@@ -3,6 +3,7 @@ title: "Travelling during COVID"
 date: "2020-07-23"
 draft: true
 path: "/blog/travelling-during-covid"
+hackernews: 23958414
 ---
 
 After 6 unforgettable years in Singapore, I was ready to start a new adventure in London. But as COVID struck, my plan to immigrate to the UK had to be shelved. With cases on the rise in the UK, I was relieved to be in Singapore. That was until I was asked to leave. As I had already resigned from my job in Singapore, my Singapore visa expired. And as I could not travel to the UK, my UK visa expired too since I didn't activate it. Singapore government graciously extended my visa for two months, allowing more time to weather the COVID crisis. But I eventually got a call from Indian Embassy asking me to book a repatriation flight to India. Here is an account of how it was -
