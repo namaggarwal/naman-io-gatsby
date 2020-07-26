@@ -56,4 +56,4 @@ At the exit, CRPF official still didn't allow me to leave asking me to bring sta
 Cab driver sanitized his car and drove me to the hotel. I was given a room for 7 days at Govt. subsidized rate of Rs. 3000 including food which is pretty decent for 4-star hotel. I was asked not to come out of the room for the next 7 days and a COVID test was arranged for me on 6th day after which I was allowed to leave.
 ![covid](../images/covid_neg.jpg)
 
-These are challenging times. I would not forget about this journey for a long time. Stay at home, stay safe.
+These are challenging times. I will not forget about this journey for a long time. Stay at home, stay safe.
