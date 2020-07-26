@@ -21,7 +21,10 @@ export default function HackerNews({ id }) {
       })
       .then(data => {
         if (!data) return
-        if (!Array.isArray(data.kids) || data.kids.length === 0) return
+        if (!Array.isArray(data.kids) || data.kids.length === 0) {
+          setLoading(false);
+          return;
+        }
         fetchComments(data.kids)
       })
   }, [])
