@@ -43,7 +43,7 @@ export default function HackerNews({ id }) {
           .catch(error => console.log(error))
       )
     ).then(data => {
-      const filteredData = data.filter(d => d !== undefined)
+      const filteredData = data.filter(d => d !== undefined).filter(d => !d.dead && !d.deleted)
       setComments(filteredData)
       setLoading(false)
     })
